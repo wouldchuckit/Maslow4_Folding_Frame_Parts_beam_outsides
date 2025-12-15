@@ -10,7 +10,15 @@
       "ioValue": 10
     },
     {
+      "name": "Input_1",
+      "ioValue": 10
+    },
+    {
       "name": "Input_2",
+      "ioValue": 10
+    },
+    {
+      "name": "Input_3",
       "ioValue": 10
     },
     {
@@ -29,7 +37,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.10999999999999999,
+      "y": 0.3140877598152425,
       "uniqueID": "id-12",
       "type": "number"
     },
@@ -52,7 +60,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.3071593533487298,
+      "y": 0.3856812933025404,
       "uniqueID": "id-19",
       "name": "Input_1",
       "type": "number"
@@ -60,9 +68,17 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.3903002309468822,
+      "y": 0.4618937644341801,
       "uniqueID": "id-21",
       "name": "Input_2",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.5496535796766744,
+      "uniqueID": "id-34",
+      "name": "Input_3",
       "type": "number"
     }
   ],
