@@ -4,6 +4,20 @@
   "y": 0,
   "uniqueID": "id-7",
   "name": "Maslow4_Folding_Frame_Parts_beam_outsides",
+  "ioValues": [
+    {
+      "name": "Input_1",
+      "ioValue": 10
+    },
+    {
+      "name": "Input_2",
+      "ioValue": 10
+    },
+    {
+      "name": "Input",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -11,6 +25,45 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-8"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.10999999999999999,
+      "uniqueID": "id-12",
+      "type": "number"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.12944983818770228,
+      "y": 0.3071593533487298,
+      "uniqueID": "id-15",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.3071593533487298,
+      "uniqueID": "id-19",
+      "name": "Input_1",
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.3903002309468822,
+      "uniqueID": "id-21",
+      "name": "Input_2",
+      "type": "number"
     }
   ],
   "allConnectors": [],
