@@ -20,10 +20,6 @@
     {
       "name": "Input_3",
       "ioValue": 10
-    },
-    {
-      "name": "Input",
-      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -33,13 +29,6 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-8"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.3140877598152425,
-      "uniqueID": "id-12",
-      "type": "number"
     },
     {
       "atomType": "Rectangle",
