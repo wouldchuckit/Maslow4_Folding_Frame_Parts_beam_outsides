@@ -32,8 +32,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.1574973031283711,
-      "y": 0.5011547344110855,
+      "x": 0.1413160733549083,
+      "y": 0.4919168591224019,
       "uniqueID": "id-15",
       "ioValues": [
         {
@@ -72,8 +72,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2394822006472492,
-      "y": 0.5727482678983834,
+      "x": 0.21628910463861922,
+      "y": 0.3325635103926097,
       "uniqueID": "id-39",
       "ioValues": [
         {
@@ -84,10 +84,10 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.15426105717367852,
-      "y": 0.76905311778291,
+      "x": 0.1574973031283711,
+      "y": 0.6766743648960739,
       "uniqueID": "id-43",
-      "name": "x + y",
+      "name": "x*y",
       "ioValues": [
         {
           "name": "x",
@@ -95,10 +95,47 @@
         },
         {
           "name": "y",
-          "ioValue": 1
+          "ioValue": 0.125
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "x*y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.22869471413160733,
+      "y": 0.6928406466512702,
+      "uniqueID": "id-47",
+      "name": "x*y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 304.75
+        },
+        {
+          "name": "y",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ],
+      "currentEquation": "x*y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.23462783171521034,
+      "y": 0.8267898383371823,
+      "uniqueID": "id-51",
+      "name": "x * y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 304.75
+        },
+        {
+          "name": "y",
+          "ioValue": 3
+        }
+      ],
+      "currentEquation": "x * y"
     }
   ],
   "allConnectors": [
@@ -126,6 +163,16 @@
       "ap2Name": "y length",
       "ap1ID": "id-34",
       "ap2ID": "id-15"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-43",
+      "ap2ID": "id-47"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-43",
+      "ap2ID": "id-51"
     }
   ],
   "unitsKey": "MM",
