@@ -11,15 +11,15 @@
     },
     {
       "name": "Input_1",
-      "ioValue": 10
+      "ioValue": 19.5
     },
     {
       "name": "Input_2",
-      "ioValue": 10
+      "ioValue": 2438
     },
     {
       "name": "Input_3",
-      "ioValue": 10
+      "ioValue": 203
     }
   ],
   "topLevel": true,
@@ -32,17 +32,17 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.12944983818770228,
-      "y": 0.3071593533487298,
+      "x": 0.1574973031283711,
+      "y": 0.5011547344110855,
       "uniqueID": "id-15",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 2438
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 203
         }
       ]
     },
@@ -69,9 +69,65 @@
       "uniqueID": "id-34",
       "name": "Input_3",
       "type": "number"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2394822006472492,
+      "y": 0.5727482678983834,
+      "uniqueID": "id-39",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 19.5
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.15426105717367852,
+      "y": 0.76905311778291,
+      "uniqueID": "id-43",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 2438
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-15",
+      "ap2ID": "id-39"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-19",
+      "ap2ID": "id-39"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-21",
+      "ap2ID": "id-15"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-21",
+      "ap2ID": "id-43"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-34",
+      "ap2ID": "id-15"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
