@@ -339,6 +339,12 @@
       ]
     },
     {
+      "atomType": "Difference",
+      "x": 0.7286947141316074,
+      "y": 0.40415704387990764,
+      "uniqueID": "id-2582"
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.2373247033441208,
       "y": 0.15242494226327943,
@@ -1998,12 +2004,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Difference",
-      "x": 0.7286947141316074,
-      "y": 0.40415704387990764,
-      "uniqueID": "id-2582"
     }
   ],
   "allConnectors": [
@@ -2233,6 +2233,11 @@
       "ap2ID": "id-2582"
     },
     {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-2582",
+      "ap2ID": "id-8"
+    },
+    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-1973",
       "ap2ID": "id-1671"
@@ -2266,11 +2271,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-2281",
       "ap2ID": "id-1106"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-2582",
-      "ap2ID": "id-8"
     }
   ],
   "unitsKey": "MM",
