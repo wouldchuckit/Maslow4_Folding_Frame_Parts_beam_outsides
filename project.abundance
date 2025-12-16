@@ -10,11 +10,11 @@
       "ioValue": 19.5
     },
     {
-      "name": "Input_2",
+      "name": "BeamLength",
       "ioValue": 2438
     },
     {
-      "name": "Input_3",
+      "name": "BeamHeight",
       "ioValue": 203
     }
   ],
@@ -55,7 +55,7 @@
       "x": 0.01815,
       "y": 0.176,
       "uniqueID": "id-21",
-      "name": "Input_2",
+      "name": "BeamLength",
       "type": "number"
     },
     {
@@ -63,7 +63,7 @@
       "x": 0.01815,
       "y": 0.242,
       "uniqueID": "id-34",
-      "name": "Input_3",
+      "name": "BeamHeight",
       "type": "number"
     },
     {
@@ -340,8 +340,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.23354908306364616,
-      "y": 0.12933025404157045,
+      "x": 0.2373247033441208,
+      "y": 0.15242494226327943,
       "uniqueID": "id-1973",
       "name": "Maslow4_Folding_Frame_Parts_beam_outsides-hole",
       "ioValues": [
