@@ -6,7 +6,7 @@
   "name": "Maslow4_Folding_Frame_Parts_beam_outsides",
   "ioValues": [
     {
-      "name": "Input_1",
+      "name": "WoodThick",
       "ioValue": 19.5
     },
     {
@@ -45,15 +45,15 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.15935334872979215,
+      "y": 0.10999999999999999,
       "uniqueID": "id-19",
-      "name": "Input_1",
+      "name": "WoodThick",
       "type": "number"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.24018475750577367,
+      "y": 0.176,
       "uniqueID": "id-21",
       "name": "Input_2",
       "type": "number"
@@ -61,7 +61,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.3187066974595843,
+      "y": 0.242,
       "uniqueID": "id-34",
       "name": "Input_3",
       "type": "number"
@@ -304,14 +304,10 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6828478964401294,
-      "y": 0.45727482678983833,
+      "x": 0.6548004314994605,
+      "y": 0.5704387990762124,
       "uniqueID": "id-1671",
       "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
         {
           "name": "Shape 2",
           "ioValue": null
@@ -2002,6 +1998,12 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.7286947141316074,
+      "y": 0.40415704387990764,
+      "uniqueID": "id-2582"
     }
   ],
   "allConnectors": [
@@ -2044,11 +2046,6 @@
       "ap2Name": "Input_1",
       "ap1ID": "id-19",
       "ap2ID": "id-2193"
-    },
-    {
-      "ap2Name": "Input_1",
-      "ap1ID": "id-19",
-      "ap2ID": "id-2237"
     },
     {
       "ap2Name": "Input_1",
@@ -2098,11 +2095,6 @@
     {
       "ap2Name": "Input_2",
       "ap1ID": "id-21",
-      "ap2ID": "id-2237"
-    },
-    {
-      "ap2Name": "Input_2",
-      "ap1ID": "id-21",
       "ap2ID": "id-2281"
     },
     {
@@ -2143,17 +2135,12 @@
     {
       "ap2Name": "Input_3",
       "ap1ID": "id-34",
-      "ap2ID": "id-2237"
-    },
-    {
-      "ap2Name": "Input_3",
-      "ap1ID": "id-34",
       "ap2ID": "id-2281"
     },
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "geometry1",
       "ap1ID": "id-39",
-      "ap2ID": "id-1671"
+      "ap2ID": "id-2582"
     },
     {
       "ap2Name": "x",
@@ -2241,9 +2228,9 @@
       "ap2ID": "id-1671"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry2",
       "ap1ID": "id-1671",
-      "ap2ID": "id-8"
+      "ap2ID": "id-2582"
     },
     {
       "ap2Name": "Shape 2",
@@ -2279,6 +2266,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-2281",
       "ap2ID": "id-1106"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-2582",
+      "ap2ID": "id-8"
     }
   ],
   "unitsKey": "MM",
