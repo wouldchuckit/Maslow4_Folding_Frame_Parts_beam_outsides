@@ -11,7 +11,8 @@
     },
     {
       "name": "BeamLength",
-      "ioValue": 2438
+      "ioValue": 1000,
+      "currentEquation": "1000"
     },
     {
       "name": "BeamHeight",
@@ -34,7 +35,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 2438
+          "ioValue": 1000
         },
         {
           "name": "y length",
@@ -87,7 +88,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 2438
+          "ioValue": 1000
         },
         {
           "name": "y",
@@ -105,7 +106,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 304.75
+          "ioValue": 125
         },
         {
           "name": "y",
@@ -123,7 +124,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 304.75
+          "ioValue": 125
         },
         {
           "name": "y",
@@ -141,7 +142,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 304.75
+          "ioValue": 125
         },
         {
           "name": "y",
@@ -159,7 +160,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 304.75
+          "ioValue": 125
         },
         {
           "name": "y",
@@ -176,7 +177,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 609.5
+          "ioValue": 250
         },
         {
           "name": "yDist",
@@ -196,7 +197,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 914.25
+          "ioValue": 375
         },
         {
           "name": "yDist",
@@ -216,7 +217,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -609.5
+          "ioValue": -250
         },
         {
           "name": "yDist",
@@ -236,7 +237,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -914.25
+          "ioValue": -375
         },
         {
           "name": "yDist",
@@ -257,7 +258,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 304.75
+          "ioValue": 125
         }
       ],
       "currentEquation": "-x"
@@ -270,7 +271,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 304.75
+          "ioValue": 125
         },
         {
           "name": "yDist",
@@ -290,7 +291,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -304.75
+          "ioValue": -125
         },
         {
           "name": "yDist",
