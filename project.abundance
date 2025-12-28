@@ -84,18 +84,14 @@
       "x": 0.04530744336569579,
       "y": 0.6374133949191686,
       "uniqueID": "id-43",
-      "name": "x*y",
+      "name": "x*.125",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 1000
-        },
-        {
-          "name": "y",
-          "ioValue": 0.125
         }
       ],
-      "currentEquation": "x*y"
+      "currentEquation": "x*.125"
     },
     {
       "atomType": "Equation",
