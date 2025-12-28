@@ -2095,7 +2095,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 203
         }
       ]
     }
@@ -2200,6 +2200,11 @@
       "ap2Name": "BeamWidth",
       "ap1ID": "id-34",
       "ap2ID": "id-3131"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-34",
+      "ap2ID": "id-3766"
     },
     {
       "ap2Name": "geometry1",
