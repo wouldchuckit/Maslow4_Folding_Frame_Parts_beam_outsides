@@ -784,8 +784,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6434735706580367,
-      "y": 0.15704387990762125,
+      "x": 0.6558791801510248,
+      "y": 0.18706697459584296,
       "uniqueID": "id-3855",
       "ioValues": [
         {
@@ -2470,6 +2470,36 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.6580366774541532,
+      "y": 0.3695150115473441,
+      "uniqueID": "id-4255",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 6.4
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6591154261057174,
+      "y": 0.5103926096997691,
+      "uniqueID": "id-4258",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -2782,6 +2812,11 @@
       "ap2Name": "x",
       "ap1ID": "id-3448",
       "ap2ID": "id-3451"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-3448",
+      "ap2ID": "id-4255"
     },
     {
       "ap2Name": "yDist",
