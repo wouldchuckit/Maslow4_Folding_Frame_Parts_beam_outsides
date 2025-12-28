@@ -2134,26 +2134,6 @@
       "currentEquation": "-x/2"
     },
     {
-      "atomType": "Move",
-      "x": 0.7206040992448759,
-      "y": 0.5427251732101617,
-      "uniqueID": "id-3780",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
       "atomType": "Equation",
       "x": 0.3581445523193096,
       "y": 0.5866050808314087,
@@ -2232,6 +2212,33 @@
           "ioValue": 19.5
         }
       ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5447680690399137,
+      "y": 0.10854503464203233,
+      "uniqueID": "id-3810",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.5436893203883495,
+      "y": 0.22170900692840645,
+      "uniqueID": "id-3816",
+      "selectedColor": "Keep Out"
     }
   ],
   "allConnectors": [
@@ -2458,11 +2465,6 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-3409",
-      "ap2ID": "id-3780"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3409",
       "ap2ID": "id-3806"
     },
     {
@@ -2556,6 +2558,11 @@
       "ap2ID": "id-3461"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-3770",
+      "ap2ID": "id-3810"
+    },
+    {
       "ap2Name": "yDist",
       "ap1ID": "id-3776",
       "ap2ID": "id-3770"
@@ -2576,6 +2583,16 @@
       "ap2ID": "id-3794"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3794",
+      "ap2ID": "id-3810"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-3800",
+      "ap2ID": "id-3810"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-3806",
       "ap2ID": "id-3794"
@@ -2584,6 +2601,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-3806",
       "ap2ID": "id-3800"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3810",
+      "ap2ID": "id-3816"
     }
   ],
   "unitsKey": "MM",
