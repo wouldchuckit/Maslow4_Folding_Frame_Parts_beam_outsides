@@ -11,8 +11,7 @@
     },
     {
       "name": "BeamLength",
-      "ioValue": 1000,
-      "currentEquation": "1000"
+      "ioValue": 1000
     },
     {
       "name": "BeamHeight",
@@ -20,8 +19,7 @@
     },
     {
       "name": "Bolt2Diameter",
-      "ioValue": 6.4,
-      "currentEquation": "6.4"
+      "ioValue": 6.4
     }
   ],
   "topLevel": true,
@@ -329,6 +327,188 @@
       "x": 0.412621359223301,
       "y": 0.12009237875288684,
       "uniqueID": "id-2582"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.37216828478964403,
+      "y": 0.348729792147806,
+      "uniqueID": "id-3409",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 35
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.3743257820927724,
+      "y": 0.24942263279445726,
+      "uniqueID": "id-3412",
+      "name": "ChainHoleD",
+      "value": 35
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.37216828478964403,
+      "y": 0.4618937644341801,
+      "uniqueID": "id-3414",
+      "name": "x*.0625",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1000
+        }
+      ],
+      "currentEquation": "x*.0625"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.3732470334412082,
+      "y": 0.5519630484988453,
+      "uniqueID": "id-3424",
+      "name": "x *3",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 62.5
+        }
+      ],
+      "currentEquation": "x *3"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.37216828478964403,
+      "y": 0.6466512702078522,
+      "uniqueID": "id-3428",
+      "name": "x *5",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 62.5
+        }
+      ],
+      "currentEquation": "x *5"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4271844660194175,
+      "y": 0.9745958429561201,
+      "uniqueID": "id-3432",
+      "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "-x"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.37162891046386193,
+      "y": 0.951501154734411,
+      "uniqueID": "id-3436",
+      "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "-x"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.31715210355987056,
+      "y": 0.9399538106235567,
+      "uniqueID": "id-3440",
+      "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "-x"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.45738942826321466,
+      "y": 0.22170900692840645,
+      "uniqueID": "id-3444",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 6.4
+        },
+        {
+          "name": "y length",
+          "ioValue": 6.4
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.308,
+      "uniqueID": "id-3448",
+      "name": "Bolt2Diameter"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.4568500539374326,
+      "y": 0.47344110854503463,
+      "uniqueID": "id-3451",
+      "name": "x/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 6.4
+        }
+      ],
+      "currentEquation": "x/2"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.505933117583603,
+      "y": 0.371824480369515,
+      "uniqueID": "id-3455",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 3.2
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.5733549083063646,
+      "y": 0.5635103926096998,
+      "uniqueID": "id-3461",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": -90
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     },
     {
       "atomType": "GitHubMolecule",
@@ -1906,188 +2086,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.37216828478964403,
-      "y": 0.348729792147806,
-      "uniqueID": "id-3409",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 35
-        }
-      ]
-    },
-    {
-      "atomType": "Constant",
-      "x": 0.3743257820927724,
-      "y": 0.24942263279445726,
-      "uniqueID": "id-3412",
-      "name": "ChainHoleD",
-      "value": 35
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.37216828478964403,
-      "y": 0.4618937644341801,
-      "uniqueID": "id-3414",
-      "name": "x*.0625",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 1000
-        }
-      ],
-      "currentEquation": "x*.0625"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.3732470334412082,
-      "y": 0.5519630484988453,
-      "uniqueID": "id-3424",
-      "name": "x *3",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 62.5
-        }
-      ],
-      "currentEquation": "x *3"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.37216828478964403,
-      "y": 0.6466512702078522,
-      "uniqueID": "id-3428",
-      "name": "x *5",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 62.5
-        }
-      ],
-      "currentEquation": "x *5"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.4271844660194175,
-      "y": 0.9745958429561201,
-      "uniqueID": "id-3432",
-      "name": "-x",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 1
-        }
-      ],
-      "currentEquation": "-x"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.37162891046386193,
-      "y": 0.951501154734411,
-      "uniqueID": "id-3436",
-      "name": "-x",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 1
-        }
-      ],
-      "currentEquation": "-x"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.31715210355987056,
-      "y": 0.9399538106235567,
-      "uniqueID": "id-3440",
-      "name": "-x",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 1
-        }
-      ],
-      "currentEquation": "-x"
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.45738942826321466,
-      "y": 0.22170900692840645,
-      "uniqueID": "id-3444",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 6.4
-        },
-        {
-          "name": "y length",
-          "ioValue": 6.4
-        }
-      ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.308,
-      "uniqueID": "id-3448",
-      "name": "Bolt2Diameter"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.4568500539374326,
-      "y": 0.47344110854503463,
-      "uniqueID": "id-3451",
-      "name": "-x/2",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 6.4
-        }
-      ],
-      "currentEquation": "-x/2"
-    },
-    {
-      "atomType": "Move",
-      "x": 0.5593311758360302,
-      "y": 0.4919168591224019,
-      "uniqueID": "id-3455",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 10,
-          "currentEquation": "10"
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.5102481121898598,
-      "y": 0.29792147806004615,
-      "uniqueID": "id-3461",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": -90
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -2292,6 +2290,46 @@
       "ap2ID": "id-8"
     },
     {
+      "ap2Name": "diameter",
+      "ap1ID": "id-3412",
+      "ap2ID": "id-3409"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3414",
+      "ap2ID": "id-3424"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3414",
+      "ap2ID": "id-3428"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3444",
+      "ap2ID": "id-3455"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3448",
+      "ap2ID": "id-3444"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-3448",
+      "ap2ID": "id-3444"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3448",
+      "ap2ID": "id-3451"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-3451",
+      "ap2ID": "id-3455"
+    },
+    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-2885",
       "ap2ID": "id-1671"
@@ -2325,46 +2363,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-3131",
       "ap2ID": "id-1106"
-    },
-    {
-      "ap2Name": "diameter",
-      "ap1ID": "id-3412",
-      "ap2ID": "id-3409"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-3414",
-      "ap2ID": "id-3424"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-3414",
-      "ap2ID": "id-3428"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3444",
-      "ap2ID": "id-3461"
-    },
-    {
-      "ap2Name": "x length",
-      "ap1ID": "id-3448",
-      "ap2ID": "id-3444"
-    },
-    {
-      "ap2Name": "y length",
-      "ap1ID": "id-3448",
-      "ap2ID": "id-3444"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-3448",
-      "ap2ID": "id-3451"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3461",
-      "ap2ID": "id-3455"
     }
   ],
   "unitsKey": "MM",
