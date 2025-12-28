@@ -471,8 +471,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.505933117583603,
-      "y": 0.371824480369515,
+      "x": 0.5091693635382956,
+      "y": 0.3140877598152425,
       "uniqueID": "id-3455",
       "ioValues": [
         {
@@ -492,8 +492,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.5733549083063646,
-      "y": 0.5635103926096998,
+      "x": 0.5555555555555556,
+      "y": 0.48036951501154734,
       "uniqueID": "id-3461",
       "ioValues": [
         {
@@ -2086,6 +2086,18 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5679611650485437,
+      "y": 0.27020785219399535,
+      "uniqueID": "id-3766",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -2330,6 +2342,11 @@
       "ap2ID": "id-3455"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3455",
+      "ap2ID": "id-3766"
+    },
+    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-2885",
       "ap2ID": "id-1671"
@@ -2363,6 +2380,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-3131",
       "ap2ID": "id-1106"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3766",
+      "ap2ID": "id-3461"
     }
   ],
   "unitsKey": "MM",
