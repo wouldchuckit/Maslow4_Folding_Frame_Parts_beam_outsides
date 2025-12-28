@@ -20,7 +20,8 @@
     },
     {
       "name": "Bolt2Diameter",
-      "ioValue": 10
+      "ioValue": 6.4,
+      "currentEquation": "6.4"
     }
   ],
   "topLevel": true,
@@ -2012,17 +2013,17 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.43635382955771307,
-      "y": 0.23556581986143188,
+      "x": 0.45738942826321466,
+      "y": 0.22170900692840645,
       "uniqueID": "id-3444",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 6.4
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 6.4
         }
       ]
     },
@@ -2035,22 +2036,22 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.43905070118662354,
-      "y": 0.3302540415704388,
+      "x": 0.4568500539374326,
+      "y": 0.47344110854503463,
       "uniqueID": "id-3451",
-      "name": "x/2",
+      "name": "-x/2",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 10
+          "ioValue": 6.4
         }
       ],
-      "currentEquation": "x/2"
+      "currentEquation": "-x/2"
     },
     {
       "atomType": "Move",
-      "x": 0.5614886731391586,
-      "y": 0.535796766743649,
+      "x": 0.5593311758360302,
+      "y": 0.4919168591224019,
       "uniqueID": "id-3455",
       "ioValues": [
         {
@@ -2063,14 +2064,15 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
     {
       "atomType": "Rotate",
-      "x": 0.48058252427184467,
-      "y": 0.6304849884526559,
+      "x": 0.5102481121898598,
+      "y": 0.29792147806004615,
       "uniqueID": "id-3461",
       "ioValues": [
         {
@@ -2340,6 +2342,11 @@
       "ap2ID": "id-3428"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3444",
+      "ap2ID": "id-3461"
+    },
+    {
       "ap2Name": "x length",
       "ap1ID": "id-3448",
       "ap2ID": "id-3444"
@@ -2353,6 +2360,11 @@
       "ap2Name": "x",
       "ap1ID": "id-3448",
       "ap2ID": "id-3451"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3461",
+      "ap2ID": "id-3455"
     }
   ],
   "unitsKey": "MM",
