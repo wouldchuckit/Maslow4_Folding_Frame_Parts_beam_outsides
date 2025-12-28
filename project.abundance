@@ -69,8 +69,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.41801510248112195,
-      "y": 0.12240184757505775,
+      "x": 0.33225458468176916,
+      "y": 0.12009237875288684,
       "uniqueID": "id-39",
       "ioValues": [
         {
@@ -167,8 +167,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2998921251348436,
-      "y": 0.25635103926096997,
+      "x": 0.24217907227615965,
+      "y": 0.2632794457274827,
       "uniqueID": "id-702",
       "ioValues": [
         {
@@ -187,8 +187,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2993527508090615,
-      "y": 0.39953810623556585,
+      "x": 0.24541531823085222,
+      "y": 0.3879907621247113,
       "uniqueID": "id-708",
       "ioValues": [
         {
@@ -207,8 +207,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2998921251348436,
-      "y": 0.5196304849884527,
+      "x": 0.2470334412081985,
+      "y": 0.5173210161662818,
       "uniqueID": "id-714",
       "ioValues": [
         {
@@ -227,8 +227,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2998921251348436,
-      "y": 0.651270207852194,
+      "x": 0.24919093851132684,
+      "y": 0.6327944572748267,
       "uniqueID": "id-720",
       "ioValues": [
         {
@@ -261,8 +261,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2993527508090615,
-      "y": 0.7713625866050808,
+      "x": 0.24919093851132684,
+      "y": 0.7505773672055427,
       "uniqueID": "id-1100",
       "ioValues": [
         {
@@ -281,8 +281,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.30097087378640774,
-      "y": 0.9284064665127021,
+      "x": 0.24919093851132684,
+      "y": 0.8775981524249422,
       "uniqueID": "id-1106",
       "ioValues": [
         {
@@ -301,8 +301,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.43042071197411,
-      "y": 0.6766743648960739,
+      "x": 0.33063646170442285,
+      "y": 0.26558891454965355,
       "uniqueID": "id-1671",
       "ioValues": [
         {
@@ -337,14 +337,14 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5026968716289105,
-      "y": 0.14318706697459585,
+      "x": 0.412621359223301,
+      "y": 0.12009237875288684,
       "uniqueID": "id-2582"
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.2373247033441208,
-      "y": 0.15242494226327943,
+      "x": 0.19039913700107874,
+      "y": 0.15473441108545033,
       "uniqueID": "id-2885",
       "name": "Maslow4_Folding_Frame_Parts_beam_outsides-hole",
       "ioValues": [
@@ -568,8 +568,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.2367853290183387,
-      "y": 0.2586605080831409,
+      "x": 0.18985976267529667,
+      "y": 0.2632794457274827,
       "uniqueID": "id-2926",
       "name": "Maslow4_Folding_Frame_Parts_beam_outsides-hole",
       "ioValues": [
@@ -793,8 +793,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.23894282632146707,
-      "y": 0.3903002309468822,
+      "x": 0.18824163969795038,
+      "y": 0.3625866050808314,
       "uniqueID": "id-2967",
       "name": "Maslow4_Folding_Frame_Parts_beam_outsides-hole",
       "ioValues": [
@@ -1018,8 +1018,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.2411003236245955,
-      "y": 0.5080831408775981,
+      "x": 0.18770226537216828,
+      "y": 0.4688221709006928,
       "uniqueID": "id-3008",
       "name": "Maslow4_Folding_Frame_Parts_beam_outsides-hole",
       "ioValues": [
@@ -1243,8 +1243,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.24271844660194175,
-      "y": 0.6304849884526559,
+      "x": 0.18824163969795038,
+      "y": 0.5796766743648961,
       "uniqueID": "id-3049",
       "name": "Maslow4_Folding_Frame_Parts_beam_outsides-hole",
       "ioValues": [
@@ -1468,8 +1468,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.24487594390507011,
-      "y": 0.7482678983833718,
+      "x": 0.1871628910463862,
+      "y": 0.6882217090069285,
       "uniqueID": "id-3090",
       "name": "Maslow4_Folding_Frame_Parts_beam_outsides-hole",
       "ioValues": [
@@ -1694,8 +1694,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.24757281553398058,
-      "y": 0.9006928406466512,
+      "x": 0.18608414239482202,
+      "y": 0.8060046189376444,
       "uniqueID": "id-3131",
       "name": "Maslow4_Folding_Frame_Parts_beam_outsides-hole",
       "ioValues": [
@@ -1917,6 +1917,26 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.3786407766990291,
+      "y": 0.3764434180138568,
+      "uniqueID": "id-3409",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 35
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.3635382955771306,
+      "y": 0.48729792147806006,
+      "uniqueID": "id-3412",
+      "name": "ChainHoleD",
+      "value": 35
     }
   ],
   "allConnectors": [
@@ -2149,6 +2169,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-3131",
       "ap2ID": "id-1106"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-3412",
+      "ap2ID": "id-3409"
     }
   ],
   "unitsKey": "MM",
