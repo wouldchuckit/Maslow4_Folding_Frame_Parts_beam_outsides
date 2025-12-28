@@ -17,6 +17,10 @@
     {
       "name": "BeamHeight",
       "ioValue": 203
+    },
+    {
+      "name": "Bolt2Diameter",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -1966,14 +1970,14 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.37216828478964403,
-      "y": 0.8521939953810623,
+      "x": 0.4271844660194175,
+      "y": 0.9745958429561201,
       "uniqueID": "id-3432",
       "name": "-x",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 187.5
+          "ioValue": 1
         }
       ],
       "currentEquation": "-x"
@@ -1987,29 +1991,29 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 312.5
+          "ioValue": 1
         }
       ],
       "currentEquation": "-x"
     },
     {
       "atomType": "Equation",
-      "x": 0.3700107874865156,
-      "y": 0.74364896073903,
+      "x": 0.31715210355987056,
+      "y": 0.9399538106235567,
       "uniqueID": "id-3440",
       "name": "-x",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 62.5
+          "ioValue": 1
         }
       ],
       "currentEquation": "-x"
     },
     {
       "atomType": "Rectangle",
-      "x": 0.4611650485436893,
-      "y": 0.2748267898383372,
+      "x": 0.43635382955771307,
+      "y": 0.23556581986143188,
       "uniqueID": "id-3444",
       "ioValues": [
         {
@@ -2019,6 +2023,47 @@
         {
           "name": "y length",
           "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.308,
+      "uniqueID": "id-3448",
+      "name": "Bolt2Diameter"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.43905070118662354,
+      "y": 0.3302540415704388,
+      "uniqueID": "id-3451",
+      "name": "x/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 10
+        }
+      ],
+      "currentEquation": "x/2"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.441747572815534,
+      "y": 0.4434180138568129,
+      "uniqueID": "id-3455",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 5
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     }
@@ -2275,19 +2320,29 @@
       "ap2ID": "id-3428"
     },
     {
-      "ap2Name": "x",
-      "ap1ID": "id-3414",
-      "ap2ID": "id-3440"
+      "ap2Name": "geometry",
+      "ap1ID": "id-3444",
+      "ap2ID": "id-3455"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-3448",
+      "ap2ID": "id-3444"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-3448",
+      "ap2ID": "id-3444"
     },
     {
       "ap2Name": "x",
-      "ap1ID": "id-3424",
-      "ap2ID": "id-3432"
+      "ap1ID": "id-3448",
+      "ap2ID": "id-3451"
     },
     {
-      "ap2Name": "x",
-      "ap1ID": "id-3428",
-      "ap2ID": "id-3436"
+      "ap2Name": "yDist",
+      "ap1ID": "id-3451",
+      "ap2ID": "id-3455"
     }
   ],
   "unitsKey": "MM",
