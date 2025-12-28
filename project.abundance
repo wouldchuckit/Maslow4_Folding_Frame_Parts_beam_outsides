@@ -2066,6 +2066,26 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.4412081984897519,
+      "y": 0.558891454965358,
+      "uniqueID": "id-3461",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": -90
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -2343,6 +2363,11 @@
       "ap2Name": "yDist",
       "ap1ID": "id-3451",
       "ap2ID": "id-3455"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3455",
+      "ap2ID": "id-3461"
     }
   ],
   "unitsKey": "MM",
